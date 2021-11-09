@@ -1,0 +1,44 @@
+body {
+    background-color: #272727;
+    color: white;
+    font-family: oswald;
+}
+
+.logo {
+    width: 8rem;
+    height: 8rem;
+}
+
+ul.Navbar {
+    list-style-type: none;
+    margin: 1.5rem;
+    padding: 0;
+    overflow: hidden;
+}
+
+ul.Navbar li {
+    float: left;
+}
+
+ul.Navbar li a {
+    display: block;
+    color: #0AC2FF;
+    text-align: center;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+ul.Navbar li.right {
+    float: right;
+}
+
+@media screen and (max-width: 600px) {
+
+    ul.Navbar li.right,
+    ul.Navbar li {
+        float: none;
+    }
+}
