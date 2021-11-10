@@ -84,7 +84,8 @@ section {
 .label {
   font-size: 1.8rem;
   font-weight: 500;
-  margin-right: 0rem;
+  margin-right: -1rem;
+  padding-right: 1.5rem;
   color: #0AC2FF;
 }
 
