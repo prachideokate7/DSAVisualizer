@@ -1,8 +1,11 @@
 body {
     background-color: #272727;
     color: white;
-    font-family: oswald;
+    font-family: 'Oswald',
+        sans-serif;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
 
 * {
     font-family: oswald;
