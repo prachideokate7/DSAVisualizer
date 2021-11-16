@@ -50,6 +50,14 @@ function sortHeapSort() {
   </pre>
   </li>`;
 
+  // add Theory
+  document.getElementById("theorySec").innerHTML = `
+  <span>Heap Sort is an in-place iterative sorting algorithm based on auxiliary data structures called heap. It's less efficient than algorithm with the same time complexity and it's not suitable for data structures with few elements.
+
+The heap is a data structure representable as a binary tree, where each node has a value bigger or equal to its children. Consequently, the root will hold the maximum value.
+
+The data structure gets ordered to form the heap initially, and then it gets progressively reordered with an algorithm similar to Selection Sort, starting from the bigger elements.<span>`;
+
   //Taking all algo lines in variable
   var line1 = document.getElementById("declaration");
   var line2 = document.getElementById("for");

@@ -48,6 +48,12 @@ function sortMergeSort() {
   </pre>
   </li>`;
 
+  // add Theory
+  document.getElementById("theorySec").innerHTML = `
+      <span>Merge Sort is a sorting algorithm based on the Divide et Impera technique, like Quick Sort. It can be implemented iteratively or recursively, using the Top-Down and Bottom-Up algorithms respectively. We represented the first one.
+<br>
+The algorithm divides the data structure recursively until the subsequences contain only one element. At this point, the subsequences get merged and ordered sequentially. To do so, the algorithm progressively builds the sorted sublist by adding each time the minimum element of the next two unsorted subsequences until there is only one sublist remaining. This will be the sorted data structure.<span>`;
+
   var line1 = document.getElementById("declaration");
   var line2 = document.getElementById("condition");
   var line3 = document.getElementById("mid");

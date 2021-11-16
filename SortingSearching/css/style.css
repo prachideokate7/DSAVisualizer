@@ -264,6 +264,17 @@ form {
   padding: 4rem 4rem 0rem 4rem;
 }
 
+.theorySec {
+  width: 165rem;
+  height: 50rem;
+  margin: 3rem 3rem 3rem 4rem;
+}
+
+#theorySec {
+  font-size: 3rem;
+  padding: 2rem 2rem 2rem 2rem;
+}
+
 .btn:link,
 .btn:visited {
   text-decoration: none;

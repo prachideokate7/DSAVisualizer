@@ -61,6 +61,12 @@ function jumpSearch() {
      </pre>
      </li>`;
 
+      // add Theory
+      document.getElementById("theorySec").innerHTML = `
+      <span>Jump Search Algorithm is a relatively new algorithm for searching an element in a sorted array.
+<br>
+The fundamental idea behind this searching technique is to search fewer number of elements compared to linear search algorithm (which scans every element in the array to check if it matches with the element being searched or not). This can be done by skipping some fixed number of array elements or jumping ahead by fixed number of steps in every iteration.<span>`;
+
       //Taking all algo lines in variable
       line1 = document.getElementById("declaration");
       line2 = document.getElementById("step");

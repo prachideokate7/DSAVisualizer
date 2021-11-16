@@ -49,6 +49,14 @@ function sortSelectionSort() {
   </pre>
   </li>`;
 
+  // add Theory
+  document.getElementById("theorySec").innerHTML = `
+      <span>Selection Sort is an iterative and in-place sorting algorithm that divides the data structure in two sublists: the ordered one, and the unordered one. The algorithm loops for all the elements of the data structure and for every cycle picks the smallest element of the unordered sublist and adds it to the sorted sublist, progressively filling it.
+<br>
+It's a really simple and intuitive algorithm that does not require additional memory, but it's not really efficient on big data structures due to its quadratic time complexity.
+<br>
+This algorithm has been upgraded and enhanced in several variants such as Heap Sort.<span>`;
+
   //Taking all algo lines in variable
   var line1 = document.getElementById("declaration");
   var line2 = document.getElementById("loop1");

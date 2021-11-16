@@ -50,6 +50,10 @@ function linearSearch() {
   </pre>
   </li>`;
 
+    // add Theory
+    document.getElementById("theorySec").innerHTML = `
+      <span>Linear search is a very simple search algorithm. In this type of search, a sequential search is made over all items one by one. Every item is checked and if a match is found then that particular item is returned, otherwise the search continues till the end of the data collection.<span>`;
+
     //Taking all algo lines in variable
     var line1 = document.getElementById("declaration");
     var line2 = document.getElementById("loop");
